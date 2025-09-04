@@ -15,7 +15,7 @@ public class Principal {
             Move mov1 = rob1.move();
             mat1.move( rob1.getId(), mov1 );
             if( time == 50 )
-				rob1.setState( State.SPIRAL );
+				rob1.setState( State.TOP_LEFT );
 			mat1.print();
         }
         System.out.print("\nFim\n");
